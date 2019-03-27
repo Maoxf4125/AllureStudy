@@ -1,0 +1,60 @@
+{
+  "uid" : "22ea6327edea4707",
+  "name" : "minor()",
+  "fullName" : "exec.SeverityTest.minor",
+  "historyId" : "3d3d6f68772fc0d4696674bf86750044",
+  "time" : {
+    "start" : 1553499393915,
+    "stop" : 1553499393916,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "maoxf-NB"
+  }, {
+    "name" : "thread",
+    "value" : "7596@maoxf-NB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "exec.SeverityTest"
+  }, {
+    "name" : "testClass",
+    "value" : "exec.SeverityTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "minor"
+  }, {
+    "name" : "suite",
+    "value" : "exec.SeverityTest"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22ea6327edea4707.json",
+  "parameterValues" : [ ]
+}

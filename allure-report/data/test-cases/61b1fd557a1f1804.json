@@ -1,0 +1,98 @@
+{
+  "uid" : "61b1fd557a1f1804",
+  "name" : "test1()",
+  "fullName" : "exec.StepTest.test1",
+  "historyId" : "868627a8ec0f8d76ecf9764bc67fd8d5",
+  "time" : {
+    "start" : 1553499393994,
+    "stop" : 1553499394177,
+    "duration" : 183
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "只执行first",
+      "time" : {
+        "start" : 1553499394170,
+        "stop" : 1553499394176,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "执行了first",
+        "time" : {
+          "start" : 1553499394174,
+          "stop" : 1553499394176,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "maoxf-NB"
+  }, {
+    "name" : "thread",
+    "value" : "7596@maoxf-NB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "exec.StepTest"
+  }, {
+    "name" : "testClass",
+    "value" : "exec.StepTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "suite",
+    "value" : "exec.StepTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61b1fd557a1f1804.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,152 @@
+{
+  "uid" : "94b31ee9cf9d3bd2",
+  "name" : "test3()",
+  "fullName" : "exec.StepTest.test3",
+  "historyId" : "f09ea2abdede872fe382147d41edf211",
+  "time" : {
+    "start" : 1553499394201,
+    "stop" : 1553499394238,
+    "duration" : 37
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "按顺序执行First、Second、Third、Fourth",
+      "time" : {
+        "start" : 1553499394201,
+        "stop" : 1553499394238,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "执行了first",
+        "time" : {
+          "start" : 1553499394201,
+          "stop" : 1553499394202,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "执行了Second",
+        "time" : {
+          "start" : 1553499394202,
+          "stop" : 1553499394202,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "执行Third，输入Test",
+        "time" : {
+          "start" : 1553499394238,
+          "stop" : 1553499394238,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "message",
+          "value" : "Test"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "执行Fourth，参数1 = msg1， 参数2 = msg2",
+        "time" : {
+          "start" : 1553499394238,
+          "stop" : 1553499394238,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "message",
+          "value" : "msg1"
+        }, {
+          "name" : "message2",
+          "value" : "msg2"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "maoxf-NB"
+  }, {
+    "name" : "thread",
+    "value" : "7596@maoxf-NB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "exec.StepTest"
+  }, {
+    "name" : "testClass",
+    "value" : "exec.StepTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test3"
+  }, {
+    "name" : "suite",
+    "value" : "exec.StepTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94b31ee9cf9d3bd2.json",
+  "parameterValues" : [ ]
+}

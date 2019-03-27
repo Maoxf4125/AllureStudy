@@ -1,0 +1,66 @@
+{
+  "uid" : "256150aaed50953c",
+  "name" : "test2()",
+  "fullName" : "exec.FeatureTest.test2",
+  "historyId" : "352651c7d58b8c1f97d2511081192596",
+  "time" : {
+    "start" : 1553499393871,
+    "stop" : 1553499393872,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Epic 最大"
+  }, {
+    "name" : "story",
+    "value" : "并列第三"
+  }, {
+    "name" : "feature",
+    "value" : "Feature第二"
+  }, {
+    "name" : "host",
+    "value" : "maoxf-NB"
+  }, {
+    "name" : "thread",
+    "value" : "7596@maoxf-NB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "exec.FeatureTest"
+  }, {
+    "name" : "testClass",
+    "value" : "exec.FeatureTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test2"
+  }, {
+    "name" : "suite",
+    "value" : "exec.FeatureTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "256150aaed50953c.json",
+  "parameterValues" : [ ]
+}
